@@ -20,6 +20,14 @@
 <script type="text/javascript" src="js/custom.js"></script>
 </head>
 <body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/zh_TW/all.js#xfbml=1&appId=175500369215845";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 <!-- Container -->
 <div id="container">
 	<!-- Top -->
@@ -134,14 +142,8 @@
 		<ul class="timeline">
 			<li>
 				<div class="timelineUnit">
-					<h4>程式設計與認證平台實務研習會<span class="timelineDate">2010</span></h4>
-					<h5>講師 / 修平科技大學</h5>
-				</div>
-			</li>
-			<li>
-				<div class="timelineUnit">
-					<h4>TQC+ Java 6 全國教師研習會<span class="timelineDate">2011</span></h4>
-					<h5>教學助理 / 靜宜大學、嘉南藥理科技大學</h5>
+					<h4>TQC+ 物件導向程式語言（Java）<span class="timelineDate">2012</span></h4>
+					<h5>講師 / 國立高雄海洋科技大學</h5>
 				</div>
 			</li>
 			<li>
@@ -152,8 +154,14 @@
 			</li>
 			<li>
 				<div class="timelineUnit">
-					<h4>TQC+ 物件導向程式語言（Java）<span class="timelineDate">2012</span></h4>
-					<h5>協同講師 / 國立高雄海洋科技大學</h5>
+					<h4>TQC+ Java 6 全國教師研習會<span class="timelineDate">2011</span></h4>
+					<h5>教學助理 / 靜宜大學、嘉南藥理科技大學</h5>
+				</div>
+			</li>
+			<li>
+				<div class="timelineUnit">
+					<h4>程式設計與認證平台實務研習會<span class="timelineDate">2010</span></h4>
+					<h5>講師 / 修平科技大學</h5>
 				</div>
 			</li>
 			<div class="clear"></div>
@@ -365,6 +373,22 @@
 			<li>網站虛擬主機、Linux / VPS 伺服器代管及技術諮詢</li>
 			<li>雲端應用程式開發技術諮詢</li>
 		</ul>
+		<!--<div class="disqus-block">
+			<script type="text/javascript">
+			    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+			    var disqus_shortname = 'lyhcodeinfo'; // required: replace example with your forum shortname
+
+			    /* * * DON'T EDIT BELOW THIS LINE * * */
+			    (function() {
+				var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+				dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+				(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+			    })();
+			</script>
+			<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+		</div>-->
+		<h3 class="main-heading"><span>留言 / Comments</span></h3>
+		<div class="fb-comments" data-href="http://lyhcode.info" data-num-posts="2" data-width="470"></div>
 		<!--<form action="" id="contactform">
 		    <p>
 			<label for="name">Your Name</label>
