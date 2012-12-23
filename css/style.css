@@ -925,3 +925,26 @@
 
 
 }
+
+
+
+
+
+/*-----additional styles------*/
+ul.portfolio-list li {
+	font-size: 11pt;
+	line-height: 180%;
+	color: #999;
+}
+
+ul.portfolio-list a {
+	color: #000;
+}
+
+.contact-form ul {
+	font-size: 1.25em;
+	list-style: circle;
+	margin-left: 4em;
+	line-height: 200%;
+	color: #555;
+}
