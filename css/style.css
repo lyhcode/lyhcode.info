@@ -177,16 +177,20 @@
 	}
 	.about .photo-inner img {
 		background-color:#FFF;
+		border: 5px solid #fafafa;
 	}
 	.about h1 {
 		font-weight:900;
+		text-shadow: 1px 1px 1px #555555;
+		letter-spacing: -1px;
 		color:#FFF;
 		line-height:34px;
 		margin-top:8px;
 	}
 	.about h3 {
-		margin-top:5px;
-		font-size:18px;
+		font-weight: normal;
+		margin-top: 5px;
+		font-size: 18px;
 		color:#FFF;
 		line-height:18px;
 	}
