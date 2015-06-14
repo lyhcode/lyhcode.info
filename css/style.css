@@ -297,7 +297,7 @@
 		/* Resume Section */
 	/*-------------------------------------------------------*/
     #resume {
-		padding:20px;
+		padding: 30px 0;
 		overflow:hidden;
 	}
 	.skills-section, .timeline-section {
@@ -403,7 +403,7 @@
 		/* Portfolio Section */
 	/*-------------------------------------------------------*/
     #portfolio {
-		padding:0 20px 20px 20px;
+		padding: 30px 0;
 		overflow:hidden;
 	}
 	#portfolio .extra-text {
@@ -891,7 +891,7 @@
 		/* Resume */
 	/*-------------------------------------------------------*/
 	#resume {
-		padding:10px;
+		padding: 30px 0;
 	}
 	.timeline-section {
 		width:280px;
@@ -929,10 +929,6 @@
 
 
 }
-
-
-
-
 
 /*-----additional styles------*/
 ul.portfolio-list li {
